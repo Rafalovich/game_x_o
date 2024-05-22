@@ -35,7 +35,7 @@ def is_all_the_same(board ,i1, i2, i3, val):
 
 
 def get_winner(board):
-    for player in ['x', 'o']:
+    for player in ['x', 'o']:#eee
         # rows
         if is_all_the_same(board,(0, 0), (0, 1), (0, 2), player): return player
         if is_all_the_same(board, (1, 0), (1, 1), (1, 2), player): return player
